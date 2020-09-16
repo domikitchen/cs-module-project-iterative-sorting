@@ -22,7 +22,3 @@ def binary_search(arr, target):
         else:
             right = midpoint - 1
     return -1  # not found
-
-arr1 = [-9, -8, -6, -4, -3, -2, 0, 1, 2, 3, 5, 7, 8, 9]
-
-print(binary_search(arr1, 98))
